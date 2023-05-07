@@ -1,0 +1,11 @@
+# How many seconds a player has to wait before teleporting again.
+teleport-cooldown: 100
+
+# How many seconds should a player wait when the try to teleport home?
+seconds-to-teleport: 10
+
+# If a sound should be played when the player is teleported
+sound-on-teleport: true
+
+# No touch please :)
+config-version: 1

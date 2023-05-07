@@ -1,0 +1,16 @@
+version: 2
+
+errors:
+  must-be-player: "<red>You must be a player for this command!</red>"
+  teleport-cancelled: "<red>Teleport canceled!</red>"
+  no-permissions: "<red>You don't have permission to use this command.</red>"
+
+config-reloaded: "<green>Config was reloaded!</green>"
+
+on-teleport: "<green>Welcome home!</green>"
+teleporting-in: "<green>Teleporting in %seconds%!</green>"
+
+commands:
+  home:
+    teleport-cooldown: "<red>You must wait %seconds% seconds to teleport.</red>"
+    invalid-syntax: "<red>Invalid command usage. Usage: /home to teleport to a home.</red>"
