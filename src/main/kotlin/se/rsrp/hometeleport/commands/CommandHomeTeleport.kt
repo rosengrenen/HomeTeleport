@@ -12,7 +12,7 @@ class CommandHomeTeleport(private val config: Config) : TabExecutor {
         label: String,
         args: Array<out String>?
     ): Boolean {
-        if (!sender.hasPermission("hometeleport.command")) {
+        if (!sender.hasPermission("hometeleport.commands.hometeleport")) {
             config.sendMessage(sender, config.messageErrorNoPermissions())
             return true
         }
